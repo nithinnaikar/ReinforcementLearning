@@ -24,7 +24,7 @@ In this problem, we are given full knowledge of the MDP. This is not the RL prob
 
 For prediction (the evaluation of a policy), we are given a Markov process and a policy pi, and we simply want to output the corresponding value function for that policy.
 
-For control (the optimization of a policy), we are again given a Markov property, but this time we output the optimal value function of the policy pi. 
+For control (the optimization of a policy), we are again given a Markov process, but this time we output the optimal value function of the policy pi. 
 
 Policy evaluation is the prediction given pi. The solution to policy evaluation is to iteratively  apply the bellman equation backup. This will produce a series of 
 value functions v_1, v_2 to v_pi, where v_pi is the true value function and v1 represents a inaccurate value func (no reward anywhere). 
